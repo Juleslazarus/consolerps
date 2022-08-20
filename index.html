@@ -23,6 +23,29 @@
     
 }console.log(getComputerChoice(3)); 
 -->
+<!--Updated code that declares computerChoiceResult of rock paper or scissors
+
+function game() {
+    let computerChoice = Math.floor(Math.random() * 3 + 1); 
+    let computerChoiceResult = computerChoice; 
+    let playerChoice = prompt('pick rock paper or scissors'); 
+    let playerChoiceResult = playerChoice.toLocaleLowerCase(); 
+    if (computerChoice === 1) {
+        let computerChoiceResult = 'rock'; 
+        console.log(computerChoiceResult); 
+    }else if (computerChoice === 2) {
+        let computerChoiceResult = 'paper'; 
+        console.log(computerChoiceResult); 
+    }else if (computerChoice === 3) {
+        let computerChoiceResult = 'scissors'; 
+        console.log(computerChoiceResult); 
+    }
+    
+}
+console.log(game()); -->
+
+
+
 
     <script src="./main.js"></script>
 </body>
